@@ -1,40 +1,63 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 html {
+  box-sizing: border-box;
   height: 100%;
   max-width: 100%;
-  background-color: rgb(29, 66, 90);
+  font-size: 16px;
 }
 
 body {
-  margin: 0;
   height: 100%;
   max-width: 100vw;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  transition: translateY(-50%);
-  text-align: center;
-  font-style: italic;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
 
 #root {
   height: 100vh;
 }
 
-h1 {
-  color: #0ccac4;
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* width */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 20px;
-}
+} */
 
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px #494d4e;
   border-radius: 10px;
-}
+} */
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: linear-gradient(
     to bottom,
     rgb(10, 199, 233) 50%,
@@ -42,9 +65,9 @@ h1 {
     rgb(13, 29, 36) 100%
   );
   border-radius: 10px;
-}
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: #295a81;
-}
+} */
