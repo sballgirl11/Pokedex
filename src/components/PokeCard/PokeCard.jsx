@@ -1,16 +1,19 @@
 import React from 'react'
 import './styles.css'
 
-const RobotCard = ({ name, email, id }) => {
-  return (
-    <div className='card'>
-      <img alt='robots' src={`https://robohash.org/${id}?200x200`} />
-      <div>
-        <h2>{name}</h2>
-        <p>{email}</p>
-      </div>
-    </div>
-  )
+const RobotCard = ({ name, id }) => {
+	console.log(id)
+	return (
+		<div className='card'>
+			<img
+				alt={name}
+				src={`https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/${id}.png`}
+			/>
+			<div>
+				<h2>{name}</h2>
+			</div>
+		</div>
+	)
 }
 
 export default RobotCard
