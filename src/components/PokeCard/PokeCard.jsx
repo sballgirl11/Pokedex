@@ -2,7 +2,6 @@ import React from 'react'
 import './styles.css'
 
 const RobotCard = ({ name, id }) => {
-	console.log(id)
 	return (
 		<div className='card'>
 			<img
