@@ -1,8 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit'
-import robotsReducer from './slices/robotsSlice'
+import pokeReducer from './slices/pokeSlice'
 import searchReducer from './slices/searchSlice'
 
 export default combineReducers({
-  robots: robotsReducer,
+  pokemon: pokeReducer,
   search: searchReducer
 })

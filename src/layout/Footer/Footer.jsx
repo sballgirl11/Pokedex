@@ -8,7 +8,7 @@ import Github from './img/github.png'
 const Footer = () => {
   return (
     <footer>
-      <div class='links'>
+      <div className='links'>
         <a
           href='https://www.facebook.com/b.Designed11/'
           rel='noopener noreferrer'
