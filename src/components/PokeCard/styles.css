@@ -1,6 +1,5 @@
 .card {
-  max-width: 250px;
-  max-height: 75vh;
+  width: 100%;
   position: relative;
   top: 135px;
   overflow: hidden;
@@ -9,7 +8,7 @@
   align-items: center;
   align-content: center;
   text-align: center;
-  background-color: rgb(184, 255, 216);
+  background-color: rgba(253, 249, 215, 0.699);
   border-radius: 10px;
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: all 0.1s ease-in;
@@ -21,14 +20,10 @@
 
 .card > img {
   width: 100%;
-  border-bottom: 1px solid black;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  height: 125px;
 }
 
 h2 {
+  padding: 10px;
   font-size: 2.2vh;
-}
-
-p {
-  font-size: 1.8vh;
 }

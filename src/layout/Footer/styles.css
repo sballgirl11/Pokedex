@@ -3,14 +3,13 @@ footer {
   grid-row: 3/-1;
   display: flex;
   justify-content: center;
-  align-items: center;
   position: fixed;
-  top: 96.9vh;
+  top: 95vh;
   z-index: 2;
   box-shadow: 0px 6px 5px 0 rgba(0, 0, 0, 0.2);
   border-top: 1px solid #0ccac4;
-  background-image: linear-gradient(to top, #0f1836, rgb(29, 66, 90));
-  color: #0ccac4;
+  background-image: linear-gradient(to top, #360f0f, rgb(255, 0, 0));
+  color: #fffb00;
 }
 
 .links {
@@ -25,7 +24,8 @@ a {
   padding: 0 0.5em;
   transition: transform 0.2s linear;
   text-decoration: none;
-  color: #0ccac4;
+  color: #fffb00;
+  font-weight: bold;
 }
 
 a:hover {
@@ -46,6 +46,11 @@ p::before {
 }
 
 p:hover::before {
-  background: rgb(168, 168, 168);
+  background: #fffb00;
   transform: scaleX(0.05);
+}
+
+p > a {
+  position: relative;
+  top: -4px;
 }

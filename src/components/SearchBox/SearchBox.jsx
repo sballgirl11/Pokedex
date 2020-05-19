@@ -9,7 +9,7 @@ const SearchBox = () => {
     <input
       onChange={e => dispatch(setSearch(e.target.value))}
       type='search'
-      placeholder='search robots'
+      placeholder='search pokemon'
     />
   )
 }

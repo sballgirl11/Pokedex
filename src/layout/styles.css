@@ -1,5 +1,4 @@
 .layout {
-  font-family: 'Open Sans', sans-serif;
   display: grid;
   grid-template-rows: 90px 1fr 50px;
   text-align: center;

@@ -5,7 +5,6 @@ export const sendPokemon = createAsyncThunk(
   'pokemon/sendPokemon',
   async thunkAPI => {
     const response = await getPokemon()
-    console.log(response)
     return response
   }
 )
@@ -29,7 +28,6 @@ const pokeSlice = createSlice({
       state.pokemon = payload
     },
     [sendPokemon.rejected]: (state, { payload }) => {
-      console.log(payload)
       state.hasError = true
       state.errorMessage = 'error'
     },
