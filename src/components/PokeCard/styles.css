@@ -17,11 +17,13 @@
   transform: scale(1.05);
 }
 
+.number {
+  justify-self: flex-start;
+}
+
 .card > img {
   width: 100%;
   height: 125px;
-  position: relative;
-  top: 20%;
 }
 
 h2 {

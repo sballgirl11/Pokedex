@@ -16,6 +16,7 @@ const Pokemon = () => {
   useEffect(() => {
     dispatch(sendPokemon1())
   }, [dispatch])
+  console.log(pokemon)
   return (
     <div className='pokemon'>
       {pending ? (
@@ -26,9 +27,11 @@ const Pokemon = () => {
         filteredPokemon.map(pokemon => {
           return (
             <PokeCard
+              pokemon={pokemon}
               key={pokemon.id}
               id={pokemon.id}
               name={pokemon.name}
+              number={pokemon.order}
               img={pokemon.sprites.front_default}
             />
           )
