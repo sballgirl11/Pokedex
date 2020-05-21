@@ -2,9 +2,11 @@
   display: grid;
   grid-template-rows: 155px 1fr 50px;
   text-align: center;
+  height: 100%;
 }
 
 main {
   grid-row: 2/3;
   padding: 20px;
+  height: 100%;
 }
