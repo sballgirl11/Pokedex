@@ -1,33 +1,25 @@
-import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { sendPokemon } from '../redux/slices/pokeSlice'
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
 import Layout from '../layout/Layout'
-import SearchBox from '../components/SearchBox/SearchBox'
 import Pokemon from '../components/Pokemon/Pokemon'
+import Pokemon2 from '../components/Pokemon/Pokemon2'
+import Pokemon3 from '../components/Pokemon/Pokemon3'
+import Pokemon4 from '../components/Pokemon/Pokemon4'
+import Pokemon5 from '../components/Pokemon/Pokemon5'
+import Pokemon6 from '../components/Pokemon/Pokemon6'
 import './pageStyles.css'
 
 const HomePage = () => {
-  const dispatch = useDispatch()
-  const error = useSelector(state => state.pokemon.hasError)
-  const pending = useSelector(state => !state.pokemon.isLoaded)
-  const search = useSelector(state => state.search.search)
-  const pokemon = useSelector(state => state.pokemon.pokemon)
-  const filteredPokemon = pokemon.filter(pokemon => {
-    return pokemon.name.toLowerCase().includes(search.toLowerCase())
-  })
-  useEffect(() => {
-    dispatch(sendPokemon())
-  }, [dispatch])
   return (
     <Layout>
-      <SearchBox />
-      {pending ? (
-        <h1>Loading...</h1>
-      ) : error ? (
-        <h1>Uh oh! Something went wrong.</h1>
-      ) : (
-        <Pokemon pokemon={filteredPokemon} />
-      )}
+      <Switch>
+        <Route exact path='/' component={Pokemon} />
+        <Route path='/page2' component={Pokemon2} />
+        <Route path='/page3' component={Pokemon3} />
+        <Route path='/page4' component={Pokemon4} />
+        <Route path='/page5' component={Pokemon5} />
+        <Route path='/page6' component={Pokemon6} />
+      </Switch>
     </Layout>
   )
 }

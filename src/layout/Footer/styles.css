@@ -22,7 +22,7 @@ footer {
 
 a {
   padding: 0 0.5em;
-  transition: transform 0.2s linear;
+  transition: transform 0.1s linear;
   text-decoration: none;
   color: #fffb00;
   font-weight: bold;

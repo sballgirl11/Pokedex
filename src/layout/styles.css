@@ -1,10 +1,10 @@
 .layout {
   display: grid;
-  grid-template-rows: 90px 1fr 50px;
+  grid-template-rows: 155px 1fr 50px;
   text-align: center;
 }
 
 main {
   grid-row: 2/3;
-  padding: 20px 0;
+  padding: 20px;
 }

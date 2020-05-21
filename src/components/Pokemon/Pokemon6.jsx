@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import PokeCard from '../PokeCard/PokeCard'
-import { sendPokemon1 } from '../../redux/asyncThunks'
+import { sendPokemon6 } from '../../redux/asyncThunks'
 import './styles.css'
 
 const Pokemon = () => {
@@ -14,7 +14,7 @@ const Pokemon = () => {
   })
   const dispatch = useDispatch()
   useEffect(() => {
-    dispatch(sendPokemon1())
+    dispatch(sendPokemon6())
   }, [dispatch])
   return (
     <div className='pokemon'>

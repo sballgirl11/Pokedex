@@ -1,12 +1,11 @@
 .card {
-  width: 100%;
-  position: relative;
-  top: 135px;
+  min-width: 175px;
+  height: 225px;
   overflow: hidden;
   display: grid;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  align-content: space-around;
   text-align: center;
   background-color: rgba(253, 249, 215, 0.699);
   border-radius: 10px;
@@ -21,9 +20,12 @@
 .card > img {
   width: 100%;
   height: 125px;
+  position: relative;
+  top: 20%;
 }
 
 h2 {
   padding: 10px;
   font-size: 2.2vh;
+  text-transform: capitalize;
 }
