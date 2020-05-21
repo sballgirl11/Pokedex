@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <Layout>
       <Switch>
-        <Route exact path='/' component={Pokemon} />
+        <Route exact path='/Pokedex' component={Pokemon} />
         <Route path='/page2' component={Pokemon2} />
         <Route path='/page3' component={Pokemon3} />
         <Route path='/page4' component={Pokemon4} />
