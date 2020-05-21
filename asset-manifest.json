@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pokedex/static/css/main.377f651b.chunk.css",
-    "main.js": "/pokedex/static/js/main.7960addc.chunk.js",
-    "main.js.map": "/pokedex/static/js/main.7960addc.chunk.js.map",
-    "runtime-main.js": "/pokedex/static/js/runtime-main.83eb840c.js",
-    "runtime-main.js.map": "/pokedex/static/js/runtime-main.83eb840c.js.map",
-    "static/js/2.7aeb3814.chunk.js": "/pokedex/static/js/2.7aeb3814.chunk.js",
-    "static/js/2.7aeb3814.chunk.js.map": "/pokedex/static/js/2.7aeb3814.chunk.js.map",
-    "index.html": "/pokedex/index.html",
-    "precache-manifest.cbfb6fa4d86493a15282ad20f0e1ef54.js": "/pokedex/precache-manifest.cbfb6fa4d86493a15282ad20f0e1ef54.js",
-    "service-worker.js": "/pokedex/service-worker.js",
-    "static/css/main.377f651b.chunk.css.map": "/pokedex/static/css/main.377f651b.chunk.css.map",
-    "static/js/2.7aeb3814.chunk.js.LICENSE.txt": "/pokedex/static/js/2.7aeb3814.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/pokedex/static/media/Pokemon Solid.36d26dbc.ttf"
+    "main.css": "/Pokedex/static/css/main.d7a497f1.chunk.css",
+    "main.js": "/Pokedex/static/js/main.c9996288.chunk.js",
+    "main.js.map": "/Pokedex/static/js/main.c9996288.chunk.js.map",
+    "runtime-main.js": "/Pokedex/static/js/runtime-main.52e390ef.js",
+    "runtime-main.js.map": "/Pokedex/static/js/runtime-main.52e390ef.js.map",
+    "static/js/2.7aeb3814.chunk.js": "/Pokedex/static/js/2.7aeb3814.chunk.js",
+    "static/js/2.7aeb3814.chunk.js.map": "/Pokedex/static/js/2.7aeb3814.chunk.js.map",
+    "index.html": "/Pokedex/index.html",
+    "precache-manifest.0b35b2209c39774bae81268a978c34a4.js": "/Pokedex/precache-manifest.0b35b2209c39774bae81268a978c34a4.js",
+    "service-worker.js": "/Pokedex/service-worker.js",
+    "static/css/main.d7a497f1.chunk.css.map": "/Pokedex/static/css/main.d7a497f1.chunk.css.map",
+    "static/js/2.7aeb3814.chunk.js.LICENSE.txt": "/Pokedex/static/js/2.7aeb3814.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Pokedex/static/media/Pokemon Solid.36d26dbc.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.83eb840c.js",
+    "static/js/runtime-main.52e390ef.js",
     "static/js/2.7aeb3814.chunk.js",
-    "static/css/main.377f651b.chunk.css",
-    "static/js/main.7960addc.chunk.js"
+    "static/css/main.d7a497f1.chunk.css",
+    "static/js/main.c9996288.chunk.js"
   ]
 }
