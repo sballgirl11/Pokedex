@@ -29,7 +29,7 @@ const Pokemon = () => {
               key={pokemon.id}
               id={pokemon.id}
               name={pokemon.name}
-              number={pokemon.order}
+              number={pokemon.id}
               img={pokemon.sprites.front_default}
             />
           )

@@ -28,7 +28,7 @@ const Pokemon = () => {
             <PokeCard
               key={pokemon.id}
               id={pokemon.id}
-              number={pokemon.order}
+              number={pokemon.id}
               name={pokemon.name}
               img={pokemon.sprites.front_default}
             />
