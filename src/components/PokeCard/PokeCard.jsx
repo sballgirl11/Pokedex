@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 import { useSelector } from 'react-redux'
-import { createColorName, createHeaderColor } from '../../utils/utils'
+import { createColorName } from '../../utils/utils'
 const PokeCard = React.memo(props => {
   const pokemon = useSelector(state => state.pokemon.pokemon[props.name])
   return (
