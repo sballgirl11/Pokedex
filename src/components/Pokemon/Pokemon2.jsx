@@ -23,16 +23,8 @@ const Pokemon = () => {
       ) : error ? (
         <h2>Uh oh! Something went wrong.</h2>
       ) : (
-        filteredPokemon.map(pokemon => {
-          return (
-            <PokeCard
-              key={pokemon.id}
-              id={pokemon.id}
-              name={pokemon.name}
-              number={pokemon.id}
-              img={pokemon.sprites.front_default}
-            />
-          )
+        Object.keys(filteredPokemon).map(one => {
+          return <PokeCard name={one} key={filteredPokemon[one].id} />
         })
       )}
     </div>

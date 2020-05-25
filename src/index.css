@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Pokemon Solid';
   src: url('./assets/Pokemon\ Solid.ttf');
-  font-display: fallback;
+  font-display: swap;
 }
 
 *,

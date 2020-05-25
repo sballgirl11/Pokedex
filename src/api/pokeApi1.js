@@ -22,3 +22,15 @@ async function fetchPokemon(pokemon) {
     throw new Error(`fetching ${pokemon.name}'s details went wrong`)
   }
 }
+
+// const baseUrl = 'https://pokeapi.com/api/v2/'
+
+// const buildUrl = configObject => {
+//   let optionsString = ''
+//   if (typeof configObject === 'string') {
+//     if (configObject.includes(baseUrl)) {
+//       return configObject
+//     }
+//     return baseUrl
+//   }
+// }

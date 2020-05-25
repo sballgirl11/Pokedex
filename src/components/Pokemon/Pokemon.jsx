@@ -12,6 +12,7 @@ const Pokemon = () => {
   const filteredPokemon = pokemon.filter(pokemon => {
     return pokemon.name.toLowerCase().includes(search.toLowerCase())
   })
+  console.log('pokemon', pokemon)
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(sendPokemon1())
@@ -24,17 +25,8 @@ const Pokemon = () => {
       ) : error ? (
         <h2>Uh oh! Something went wrong.</h2>
       ) : (
-        filteredPokemon.map(pokemon => {
-          return (
-            <PokeCard
-              pokemon={pokemon}
-              key={pokemon.id}
-              id={pokemon.id}
-              name={pokemon.name}
-              number={pokemon.id}
-              img={pokemon.sprites.front_default}
-            />
-          )
+        Object.keys(filteredPokemon).map(one => {
+          return <PokeCard name={one} key={filteredPokemon[one].id} />
         })
       )}
     </div>

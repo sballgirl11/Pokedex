@@ -7,6 +7,7 @@ const SearchBox = () => {
   const dispatch = useDispatch()
   return (
     <input
+      aria-label='search pokemon'
       onChange={e => dispatch(setSearch(e.target.value))}
       type='search'
       placeholder='search pokemon'
